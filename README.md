@@ -1,5 +1,6 @@
 # Systolic-Array-Matrix-Multiplication
-Implementation of weight stationary systolic array which has a size of 4x4(scalable) to 256X256
+Implementation of weight stationary systolic array which has a size of 4x4(scalable) to 256X256.
+
 The MMU (Matrix Multiplication Unit) module is the top-level module that represents a systolic array for
 matrix multiplication. It takes several inputs, processes them systolically through multiple MAC (Multiply-Accumulate)
 units arranged in a 2D array, and produces an output accumulator result.
